@@ -1,0 +1,89 @@
+body{
+  background-color:indigo;
+}
+.App {
+  text-align: center;
+ 
+}
+.Cards{
+  background: #61dafb;
+}
+#cambridge{
+  background: #ff6666;
+  cursor: pointer;
+  color: white;
+}
+#primary{
+  background:#0099cc;
+  cursor: pointer;
+  color: white;
+}
+#secondary{
+  background: blueviolet;
+  cursor: pointer;
+  color: white;
+}
+#tvet{
+  background:  #006699;
+  cursor: pointer;
+  color: white;
+}
+#uzi{
+  background: #009933;
+  cursor: pointer;
+  color: white;
+}
+#clear{
+  cursor:pointer;
+}
+#create{
+  border-radius: 25px;
+   height: 30px;
+   width:50%;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color:#9FE2BF;
+  color:#000000
+}
+
+#account{
+  background:#99ffbb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+#student{
+  margin-top: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
