@@ -2,65 +2,65 @@ import React from 'react'
 import Navbar from './Navbar'
 import {useNavigate} from 'react-router-dom'
 
-const Level2Card = () => {
-  const navigate = useNavigate();  
+const Courses = () => {
+    const navigate = useNavigate();  
   return (
     <>
-       <Navbar />
+          <Navbar />
      <div className="row p-5"> 
    <div className="col-sm-3 pt-5" onClick={()=>{
-      navigate("/Courses");
-   }} >
+      navigate("/Term");
+   }}>
      <div className="card rounded shadow-lg" id="cambridge">
         <div className="card-body">
           <h6 className="card-title">
-          Grade 1
+          English
             </h6>
         </div>
       </div>
     </div>
-    <div className="col-sm-3 pt-5"  onClick={()=>{
-      navigate("/Courses");
+    <div className="col-sm-3 pt-5" onClick={()=>{
+      navigate("/Term");
    }}>
     <div className="card rounded shadow-lg" id="primary">
         <div className="card-body">
-        <h5 className="card-title"> Grade 2</h5>
+        <h5 className="card-title"> ICT</h5>
         </div>
       </div>
     </div>
-    <div className="col-sm-3 pt-5">
+    <div className="col-sm-3 pt-5" onClick={()=>{
+      navigate("/Term");
+   }} >
     <div className="card rounded shadow-lg"  id="secondary">
         <div className="card-body">
-          <h5 className="card-title"> Grade 3</h5>
+          <h5 className="card-title"> Maths</h5>
         </div> 
       </div>
     </div>
-    <div className="col-sm-3 pt-5">
+    <div className="col-sm-3 pt-5" onClick={()=>{
+      navigate("/Term");
+   }} >
     <div className="card rounded shadow-lg" id="tvet">
         <div className="card-body">
-          <h5 className="card-title"> Grade 4</h5>
+          <h5 className="card-title"> Science</h5>
         </div>
       </div>
     </div>
-    <div className="col-sm-3 pt-5">
+    <div className="col-sm-3 pt-5" onClick={()=>{
+      navigate("/Term");
+   }}>
     <div className="card rounded shadow-lg" id='uzi'>
         <div className="card-body">
           <h5 className="card-title">Grade 5</h5>
         </div>
       </div>
     </div>
-    <div className="col-sm-3 pt-5">
+    <div className="col-sm-3 pt-5" onClick={()=>{
+      navigate("/Term");
+   }}>
     <div className="card rounded shadow-lg" style={{backgroundColor:'#669999'}}>
         <div className="card-body">
-          <h5 className="card-title text-white"> Grade 6</h5>
-        </div>
-      </div>
-    </div>
-    <div className="col-sm-3 pt-5">
-    <div className="card rounded shadow-lg" style={{backgroundColor:'#669999'}}>
-        <div className="card-body">
-
-          <h5 className="card-title text-white"> Grade 7</h5>
+          <h5 className="card-title text-white"> Social Studies</h5>
         </div>
       </div>
     </div>
@@ -74,4 +74,4 @@ const Level2Card = () => {
   )
 }
 
-export default Level2Card
+export default Courses

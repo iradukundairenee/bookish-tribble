@@ -1,13 +1,12 @@
+import React from 'react';
 import './App.css';
-import Header from './views/Header';
-import Cards from './views/Cards';
+import Routes from './Routes/index';
 
 function App() {
   return (
-    <div className="App">
-     <Header className="navbar"/>
-     {/* <Cards className="Card"/> */}
-    </div>
+<div className="App">
+<Routes />
+       </div>
   );
 }
 
